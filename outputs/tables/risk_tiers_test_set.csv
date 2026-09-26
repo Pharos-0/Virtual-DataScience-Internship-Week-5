@@ -1,0 +1,4 @@
+tier,customers,churners,share_of_customers,churn_rate,share_of_churners
+High (>= 0.50),295,197,0.2094,0.6678,0.5267
+Medium (0.34-0.50),185,75,0.1313,0.4054,0.2005
+Low (< 0.34),929,102,0.6593,0.1098,0.2727

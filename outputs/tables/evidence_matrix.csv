@@ -1,0 +1,7 @@
+driver,week1_eda,week2_story,week3_test,week4_model,reading
+Contract type,M2M 42.7% vs two-year 2.8%,M2M highest in every tenure band,"chi2 p=5.9e-258, V=0.41; tenure-adjusted OR 7.11","OR two-year 0.20, one-year 0.49 (vs M2M)",Consistent and strong in all four weeks
+Tenure (early months),0-12 m 47.4% vs 61-72 m 6.6%,55.5% of churners left in year 1,contract effect largest in year 1 (OR 14.5),OR 0.44 per SD of log_tenure,Consistent and strong
+Fibre optic internet,fibre 41.9% vs DSL 19.0%,highest churn despite leavers paying less within service,within-service charge gaps negative (all p<0.001),OR 3.04 vs DSL,Consistent; reason not visible in data
+No security / tech support,no tech support 41.6% vs 15.2%,largest add-on gaps (about 27 points),diff 27.2 pp / 26.5 pp (p<0.001),OR 0.73 / 0.77 with add-on,Consistent; smaller once other factors held constant
+Electronic-check payment,45.3% vs 15.2-19.1% others,higher within every contract type,not tested formally,OR 1.40 vs bank transfer,Consistent marker; weaker than contract
+Monthly charges,churner median USD 79.65 vs 64.43,reverses within each internet service,+USD 13.18 overall (g=0.45); negative within services,OR 0.81 per SD (entangled with services),Not a reliable driver on its own

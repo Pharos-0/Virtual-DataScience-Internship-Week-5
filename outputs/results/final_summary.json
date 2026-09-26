@@ -1,0 +1,260 @@
+{
+  "overview": {
+    "customers": 7043.0,
+    "churned customers": 1869.0,
+    "churn rate (%)": 26.54,
+    "monthly charges, all customers (USD)": 456116.6,
+    "monthly charges of churned customers (USD)": 139130.85,
+    "share of monthly charges from churned customers (%)": 30.5
+  },
+  "evidence_matrix": [
+    {
+      "driver": "Contract type",
+      "week1_eda": "M2M 42.7% vs two-year 2.8%",
+      "week2_story": "M2M highest in every tenure band",
+      "week3_test": "chi2 p=5.9e-258, V=0.41; tenure-adjusted OR 7.11",
+      "week4_model": "OR two-year 0.20, one-year 0.49 (vs M2M)",
+      "reading": "Consistent and strong in all four weeks"
+    },
+    {
+      "driver": "Tenure (early months)",
+      "week1_eda": "0-12 m 47.4% vs 61-72 m 6.6%",
+      "week2_story": "55.5% of churners left in year 1",
+      "week3_test": "contract effect largest in year 1 (OR 14.5)",
+      "week4_model": "OR 0.44 per SD of log_tenure",
+      "reading": "Consistent and strong"
+    },
+    {
+      "driver": "Fibre optic internet",
+      "week1_eda": "fibre 41.9% vs DSL 19.0%",
+      "week2_story": "highest churn despite leavers paying less within service",
+      "week3_test": "within-service charge gaps negative (all p<0.001)",
+      "week4_model": "OR 3.04 vs DSL",
+      "reading": "Consistent; reason not visible in data"
+    },
+    {
+      "driver": "No security / tech support",
+      "week1_eda": "no tech support 41.6% vs 15.2%",
+      "week2_story": "largest add-on gaps (about 27 points)",
+      "week3_test": "diff 27.2 pp / 26.5 pp (p<0.001)",
+      "week4_model": "OR 0.73 / 0.77 with add-on",
+      "reading": "Consistent; smaller once other factors held constant"
+    },
+    {
+      "driver": "Electronic-check payment",
+      "week1_eda": "45.3% vs 15.2-19.1% others",
+      "week2_story": "higher within every contract type",
+      "week3_test": "not tested formally",
+      "week4_model": "OR 1.40 vs bank transfer",
+      "reading": "Consistent marker; weaker than contract"
+    },
+    {
+      "driver": "Monthly charges",
+      "week1_eda": "churner median USD 79.65 vs 64.43",
+      "week2_story": "reverses within each internet service",
+      "week3_test": "+USD 13.18 overall (g=0.45); negative within services",
+      "week4_model": "OR 0.81 per SD (entangled with services)",
+      "reading": "Not a reliable driver on its own"
+    }
+  ],
+  "test_base_rate": 0.2654,
+  "test_customers": 1409,
+  "test_churners": 374,
+  "gains": {
+    "top_10pct": {
+      "customers": 141,
+      "churners": 108,
+      "share_of_churners": 0.2888,
+      "precision": 0.766
+    },
+    "top_20pct": {
+      "customers": 282,
+      "churners": 192,
+      "share_of_churners": 0.5134,
+      "precision": 0.6809
+    },
+    "top_30pct": {
+      "customers": 423,
+      "churners": 247,
+      "share_of_churners": 0.6604,
+      "precision": 0.5839
+    },
+    "top_50pct": {
+      "customers": 704,
+      "churners": 327,
+      "share_of_churners": 0.8743,
+      "precision": 0.4645
+    }
+  },
+  "deciles": [
+    {
+      "decile": 1,
+      "customers": 141,
+      "churners": 108,
+      "mean_probability": 0.7724,
+      "churn_rate": 0.766,
+      "lift": 2.8857,
+      "cumulative_share_of_churners": 0.2888
+    },
+    {
+      "decile": 2,
+      "customers": 141,
+      "churners": 84,
+      "mean_probability": 0.5852,
+      "churn_rate": 0.5957,
+      "lift": 2.2444,
+      "cumulative_share_of_churners": 0.5134
+    },
+    {
+      "decile": 3,
+      "customers": 141,
+      "churners": 55,
+      "mean_probability": 0.4545,
+      "churn_rate": 0.3901,
+      "lift": 1.4695,
+      "cumulative_share_of_churners": 0.6604
+    },
+    {
+      "decile": 4,
+      "customers": 141,
+      "churners": 44,
+      "mean_probability": 0.3351,
+      "churn_rate": 0.3121,
+      "lift": 1.1756,
+      "cumulative_share_of_churners": 0.7781
+    },
+    {
+      "decile": 5,
+      "customers": 141,
+      "churners": 36,
+      "mean_probability": 0.2322,
+      "churn_rate": 0.2553,
+      "lift": 0.9619,
+      "cumulative_share_of_churners": 0.8743
+    },
+    {
+      "decile": 6,
+      "customers": 140,
+      "churners": 24,
+      "mean_probability": 0.1435,
+      "churn_rate": 0.1714,
+      "lift": 0.6458,
+      "cumulative_share_of_churners": 0.9385
+    },
+    {
+      "decile": 7,
+      "customers": 141,
+      "churners": 15,
+      "mean_probability": 0.082,
+      "churn_rate": 0.1064,
+      "lift": 0.4008,
+      "cumulative_share_of_churners": 0.9786
+    },
+    {
+      "decile": 8,
+      "customers": 141,
+      "churners": 5,
+      "mean_probability": 0.0437,
+      "churn_rate": 0.0355,
+      "lift": 0.1336,
+      "cumulative_share_of_churners": 0.992
+    },
+    {
+      "decile": 9,
+      "customers": 141,
+      "churners": 2,
+      "mean_probability": 0.0209,
+      "churn_rate": 0.0142,
+      "lift": 0.0534,
+      "cumulative_share_of_churners": 0.9973
+    },
+    {
+      "decile": 10,
+      "customers": 141,
+      "churners": 1,
+      "mean_probability": 0.0083,
+      "churn_rate": 0.0071,
+      "lift": 0.0267,
+      "cumulative_share_of_churners": 1.0
+    }
+  ],
+  "risk_tiers": [
+    {
+      "tier": "High (>= 0.50)",
+      "customers": 295,
+      "churners": 197,
+      "share_of_customers": 0.2094,
+      "churn_rate": 0.6678,
+      "share_of_churners": 0.5267
+    },
+    {
+      "tier": "Medium (0.34-0.50)",
+      "customers": 185,
+      "churners": 75,
+      "share_of_customers": 0.1313,
+      "churn_rate": 0.4054,
+      "share_of_churners": 0.2005
+    },
+    {
+      "tier": "Low (< 0.34)",
+      "customers": 929,
+      "churners": 102,
+      "share_of_customers": 0.6593,
+      "churn_rate": 0.1098,
+      "share_of_churners": 0.2727
+    }
+  ],
+  "segments": [
+    {
+      "segment": "Month-to-month, fibre, electronic check",
+      "customers": 1307,
+      "share_of_customers": 0.1856,
+      "churners": 789,
+      "churn_rate": 0.6037,
+      "share_of_churners": 0.4222,
+      "share_of_churned_monthly_charges": 0.4908
+    },
+    {
+      "segment": "Month-to-month, first 12 months",
+      "customers": 1994,
+      "share_of_customers": 0.2831,
+      "churners": 1024,
+      "churn_rate": 0.5135,
+      "share_of_churners": 0.5479,
+      "share_of_churned_monthly_charges": 0.4909
+    },
+    {
+      "segment": "Internet, no security and no tech support",
+      "customers": 2553,
+      "share_of_customers": 0.3625,
+      "churners": 1250,
+      "churn_rate": 0.4896,
+      "share_of_churners": 0.6688,
+      "share_of_churned_monthly_charges": 0.6839
+    },
+    {
+      "segment": "Fibre optic (all)",
+      "customers": 3096,
+      "share_of_customers": 0.4396,
+      "churners": 1297,
+      "churn_rate": 0.4189,
+      "share_of_churners": 0.694,
+      "share_of_churned_monthly_charges": 0.8215
+    },
+    {
+      "segment": "One- or two-year contract",
+      "customers": 3168,
+      "share_of_customers": 0.4498,
+      "churners": 214,
+      "churn_rate": 0.0676,
+      "share_of_churners": 0.1145,
+      "share_of_churned_monthly_charges": 0.1314
+    }
+  ],
+  "priority_union": {
+    "customers": 3590,
+    "share_of_customers": 0.5097,
+    "churners": 1602,
+    "share_of_churners": 0.8571
+  }
+}
