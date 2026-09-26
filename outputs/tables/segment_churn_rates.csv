@@ -1,0 +1,37 @@
+Contract,InternetService,PaymentMethod,customers,churned,churn_rate,segment
+Month-to-month,Fiber optic,Electronic check,1307,789,60.4,Month-to-month | Fiber optic | Electronic check
+Month-to-month,DSL,Electronic check,474,192,40.5,Month-to-month | DSL | Electronic check
+Month-to-month,Fiber optic,Bank transfer (automatic),327,149,45.6,Month-to-month | Fiber optic | Bank transfer (automatic)
+Month-to-month,Fiber optic,Credit card (automatic),293,122,41.6,Month-to-month | Fiber optic | Credit card (automatic)
+Month-to-month,DSL,Mailed check,367,113,30.8,Month-to-month | DSL | Mailed check
+Month-to-month,Fiber optic,Mailed check,201,102,50.7,Month-to-month | Fiber optic | Mailed check
+Month-to-month,No,Mailed check,325,67,20.6,Month-to-month | No | Mailed check
+One year,Fiber optic,Electronic check,196,51,26.0,One year | Fiber optic | Electronic check
+Month-to-month,DSL,Credit card (automatic),185,50,27.0,Month-to-month | DSL | Credit card (automatic)
+Month-to-month,DSL,Bank transfer (automatic),197,39,19.8,Month-to-month | DSL | Bank transfer (automatic)
+One year,Fiber optic,Bank transfer (automatic),157,23,14.6,One year | Fiber optic | Bank transfer (automatic)
+One year,Fiber optic,Credit card (automatic),150,23,15.3,One year | Fiber optic | Credit card (automatic)
+One year,DSL,Credit card (automatic),172,17,9.9,One year | DSL | Credit card (automatic)
+Two year,Fiber optic,Bank transfer (automatic),162,15,9.3,Two year | Fiber optic | Bank transfer (automatic)
+One year,DSL,Mailed check,137,14,10.2,One year | DSL | Mailed check
+Month-to-month,No,Electronic check,69,13,18.8,Month-to-month | No | Electronic check
+Month-to-month,No,Bank transfer (automatic),65,13,20.0,Month-to-month | No | Bank transfer (automatic)
+One year,DSL,Bank transfer (automatic),145,11,7.6,One year | DSL | Bank transfer (automatic)
+One year,DSL,Electronic check,116,11,9.5,One year | DSL | Electronic check
+Two year,Fiber optic,Electronic check,92,9,9.8,Two year | Fiber optic | Electronic check
+One year,Fiber optic,Mailed check,36,7,19.4,One year | Fiber optic | Mailed check
+Month-to-month,No,Credit card (automatic),65,6,9.2,Month-to-month | No | Credit card (automatic)
+Two year,Fiber optic,Credit card (automatic),154,6,3.9,Two year | Fiber optic | Credit card (automatic)
+Two year,DSL,Credit card (automatic),237,5,2.1,Two year | DSL | Credit card (automatic)
+One year,No,Bank transfer (automatic),89,4,4.5,One year | No | Bank transfer (automatic)
+Two year,DSL,Electronic check,58,4,6.9,Two year | DSL | Electronic check
+Two year,DSL,Bank transfer (automatic),224,3,1.3,Two year | DSL | Bank transfer (automatic)
+Two year,No,Credit card (automatic),190,2,1.1,Two year | No | Credit card (automatic)
+One year,No,Mailed check,164,2,1.2,One year | No | Mailed check
+One year,No,Electronic check,35,2,5.7,One year | No | Electronic check
+Two year,No,Mailed check,252,2,0.8,Two year | No | Mailed check
+Two year,Fiber optic,Mailed check,21,1,4.8,Two year | Fiber optic | Mailed check
+Two year,No,Bank transfer (automatic),178,1,0.6,Two year | No | Bank transfer (automatic)
+One year,No,Credit card (automatic),76,1,1.3,One year | No | Credit card (automatic)
+Two year,DSL,Mailed check,109,0,0.0,Two year | DSL | Mailed check
+Two year,No,Electronic check,18,0,0.0,Two year | No | Electronic check

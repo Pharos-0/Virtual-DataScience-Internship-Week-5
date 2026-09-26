@@ -1,0 +1,411 @@
+{
+  "churn_counts": {
+    "No": 5174,
+    "Yes": 1869
+  },
+  "churn_rate": 0.2654,
+  "numeric_stats": {
+    "tenure": {
+      "count": 7043.0,
+      "mean": 32.371,
+      "median": 29.0,
+      "std": 24.559,
+      "min": 0.0,
+      "q1": 9.0,
+      "q3": 55.0,
+      "iqr": 46.0,
+      "max": 72.0,
+      "skew": 0.24
+    },
+    "MonthlyCharges": {
+      "count": 7043.0,
+      "mean": 64.762,
+      "median": 70.35,
+      "std": 30.09,
+      "min": 18.25,
+      "q1": 35.5,
+      "q3": 89.85,
+      "iqr": 54.35,
+      "max": 118.75,
+      "skew": -0.221
+    },
+    "TotalCharges": {
+      "count": 7043.0,
+      "mean": 2279.734,
+      "median": 1394.55,
+      "std": 2266.794,
+      "min": 0.0,
+      "q1": 398.55,
+      "q3": 3786.6,
+      "iqr": 3388.05,
+      "max": 8684.8,
+      "skew": 0.963
+    }
+  },
+  "tenure_1_count": 613,
+  "tenure_72_count": 362,
+  "monthly_charges_by_internet": {
+    "DSL": {
+      "count": 2421.0,
+      "mean": 58.1,
+      "std": 16.26,
+      "min": 23.45,
+      "25%": 46.2,
+      "50%": 56.15,
+      "75%": 69.9,
+      "max": 94.8
+    },
+    "Fiber optic": {
+      "count": 3096.0,
+      "mean": 91.5,
+      "std": 12.66,
+      "min": 67.75,
+      "25%": 80.55,
+      "50%": 91.68,
+      "75%": 101.15,
+      "max": 118.75
+    },
+    "No": {
+      "count": 1526.0,
+      "mean": 21.08,
+      "std": 2.16,
+      "min": 18.25,
+      "25%": 19.7,
+      "50%": 20.15,
+      "75%": 20.9,
+      "max": 26.9
+    }
+  },
+  "numeric_by_churn": {
+    "No": {
+      "tenure": {
+        "mean": 37.57,
+        "median": 38.0
+      },
+      "MonthlyCharges": {
+        "mean": 61.27,
+        "median": 64.43
+      },
+      "TotalCharges": {
+        "mean": 2549.91,
+        "median": 1679.52
+      }
+    },
+    "Yes": {
+      "tenure": {
+        "mean": 17.98,
+        "median": 10.0
+      },
+      "MonthlyCharges": {
+        "mean": 74.44,
+        "median": 79.65
+      },
+      "TotalCharges": {
+        "mean": 1531.8,
+        "median": 703.55
+      }
+    }
+  },
+  "churn_rate_by_category": {
+    "gender": {
+      "Female": {
+        "customers": 3488,
+        "churn_rate_pct": 26.92
+      },
+      "Male": {
+        "customers": 3555,
+        "churn_rate_pct": 26.16
+      }
+    },
+    "SeniorCitizen": {
+      "No": {
+        "customers": 5901,
+        "churn_rate_pct": 23.61
+      },
+      "Yes": {
+        "customers": 1142,
+        "churn_rate_pct": 41.68
+      }
+    },
+    "Partner": {
+      "No": {
+        "customers": 3641,
+        "churn_rate_pct": 32.96
+      },
+      "Yes": {
+        "customers": 3402,
+        "churn_rate_pct": 19.66
+      }
+    },
+    "Dependents": {
+      "No": {
+        "customers": 4933,
+        "churn_rate_pct": 31.28
+      },
+      "Yes": {
+        "customers": 2110,
+        "churn_rate_pct": 15.45
+      }
+    },
+    "PhoneService": {
+      "No": {
+        "customers": 682,
+        "churn_rate_pct": 24.93
+      },
+      "Yes": {
+        "customers": 6361,
+        "churn_rate_pct": 26.71
+      }
+    },
+    "MultipleLines": {
+      "No": {
+        "customers": 3390,
+        "churn_rate_pct": 25.04
+      },
+      "No phone service": {
+        "customers": 682,
+        "churn_rate_pct": 24.93
+      },
+      "Yes": {
+        "customers": 2971,
+        "churn_rate_pct": 28.61
+      }
+    },
+    "InternetService": {
+      "DSL": {
+        "customers": 2421,
+        "churn_rate_pct": 18.96
+      },
+      "Fiber optic": {
+        "customers": 3096,
+        "churn_rate_pct": 41.89
+      },
+      "No": {
+        "customers": 1526,
+        "churn_rate_pct": 7.4
+      }
+    },
+    "OnlineSecurity": {
+      "No": {
+        "customers": 3498,
+        "churn_rate_pct": 41.77
+      },
+      "No internet service": {
+        "customers": 1526,
+        "churn_rate_pct": 7.4
+      },
+      "Yes": {
+        "customers": 2019,
+        "churn_rate_pct": 14.61
+      }
+    },
+    "OnlineBackup": {
+      "No": {
+        "customers": 3088,
+        "churn_rate_pct": 39.93
+      },
+      "No internet service": {
+        "customers": 1526,
+        "churn_rate_pct": 7.4
+      },
+      "Yes": {
+        "customers": 2429,
+        "churn_rate_pct": 21.53
+      }
+    },
+    "DeviceProtection": {
+      "No": {
+        "customers": 3095,
+        "churn_rate_pct": 39.13
+      },
+      "No internet service": {
+        "customers": 1526,
+        "churn_rate_pct": 7.4
+      },
+      "Yes": {
+        "customers": 2422,
+        "churn_rate_pct": 22.5
+      }
+    },
+    "TechSupport": {
+      "No": {
+        "customers": 3473,
+        "churn_rate_pct": 41.64
+      },
+      "No internet service": {
+        "customers": 1526,
+        "churn_rate_pct": 7.4
+      },
+      "Yes": {
+        "customers": 2044,
+        "churn_rate_pct": 15.17
+      }
+    },
+    "StreamingTV": {
+      "No": {
+        "customers": 2810,
+        "churn_rate_pct": 33.52
+      },
+      "No internet service": {
+        "customers": 1526,
+        "churn_rate_pct": 7.4
+      },
+      "Yes": {
+        "customers": 2707,
+        "churn_rate_pct": 30.07
+      }
+    },
+    "StreamingMovies": {
+      "No": {
+        "customers": 2785,
+        "churn_rate_pct": 33.68
+      },
+      "No internet service": {
+        "customers": 1526,
+        "churn_rate_pct": 7.4
+      },
+      "Yes": {
+        "customers": 2732,
+        "churn_rate_pct": 29.94
+      }
+    },
+    "Contract": {
+      "Month-to-month": {
+        "customers": 3875,
+        "churn_rate_pct": 42.71
+      },
+      "One year": {
+        "customers": 1473,
+        "churn_rate_pct": 11.27
+      },
+      "Two year": {
+        "customers": 1695,
+        "churn_rate_pct": 2.83
+      }
+    },
+    "PaperlessBilling": {
+      "No": {
+        "customers": 2872,
+        "churn_rate_pct": 16.33
+      },
+      "Yes": {
+        "customers": 4171,
+        "churn_rate_pct": 33.57
+      }
+    },
+    "PaymentMethod": {
+      "Bank transfer (automatic)": {
+        "customers": 1544,
+        "churn_rate_pct": 16.71
+      },
+      "Credit card (automatic)": {
+        "customers": 1522,
+        "churn_rate_pct": 15.24
+      },
+      "Electronic check": {
+        "customers": 2365,
+        "churn_rate_pct": 45.29
+      },
+      "Mailed check": {
+        "customers": 1612,
+        "churn_rate_pct": 19.11
+      }
+    }
+  },
+  "tenure_band_churn": {
+    "0-12": {
+      "customers": 2186,
+      "churn_rate_pct": 47.44
+    },
+    "13-24": {
+      "customers": 1024,
+      "churn_rate_pct": 28.71
+    },
+    "25-36": {
+      "customers": 832,
+      "churn_rate_pct": 21.63
+    },
+    "37-48": {
+      "customers": 762,
+      "churn_rate_pct": 19.03
+    },
+    "49-60": {
+      "customers": 832,
+      "churn_rate_pct": 14.42
+    },
+    "61-72": {
+      "customers": 1407,
+      "churn_rate_pct": 6.61
+    }
+  },
+  "pearson": {
+    "tenure": {
+      "tenure": 1.0,
+      "MonthlyCharges": 0.2479,
+      "TotalCharges": 0.8262,
+      "churn_flag": -0.3522
+    },
+    "MonthlyCharges": {
+      "tenure": 0.2479,
+      "MonthlyCharges": 1.0,
+      "TotalCharges": 0.6512,
+      "churn_flag": 0.1934
+    },
+    "TotalCharges": {
+      "tenure": 0.8262,
+      "MonthlyCharges": 0.6512,
+      "TotalCharges": 1.0,
+      "churn_flag": -0.1983
+    },
+    "churn_flag": {
+      "tenure": -0.3522,
+      "MonthlyCharges": 0.1934,
+      "TotalCharges": -0.1983,
+      "churn_flag": 1.0
+    }
+  },
+  "spearman": {
+    "tenure": {
+      "tenure": 1.0,
+      "MonthlyCharges": 0.2764,
+      "TotalCharges": 0.8897,
+      "churn_flag": -0.3671
+    },
+    "MonthlyCharges": {
+      "tenure": 0.2764,
+      "MonthlyCharges": 1.0,
+      "TotalCharges": 0.638,
+      "churn_flag": 0.1847
+    },
+    "TotalCharges": {
+      "tenure": 0.8897,
+      "MonthlyCharges": 0.638,
+      "TotalCharges": 1.0,
+      "churn_flag": -0.23
+    },
+    "churn_flag": {
+      "tenure": -0.3671,
+      "MonthlyCharges": 0.1847,
+      "TotalCharges": -0.23,
+      "churn_flag": 1.0
+    }
+  },
+  "cramers_v": {
+    "Contract": 0.4101,
+    "OnlineSecurity": 0.3474,
+    "TechSupport": 0.3429,
+    "InternetService": 0.3225,
+    "PaymentMethod": 0.3034,
+    "OnlineBackup": 0.2923,
+    "DeviceProtection": 0.2816,
+    "StreamingMovies": 0.231,
+    "StreamingTV": 0.2305,
+    "PaperlessBilling": 0.1918,
+    "Dependents": 0.1642,
+    "SeniorCitizen": 0.1509,
+    "Partner": 0.1504,
+    "MultipleLines": 0.0401,
+    "PhoneService": 0.0119,
+    "gender": 0.0086
+  }
+}

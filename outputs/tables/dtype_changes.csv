@@ -1,0 +1,23 @@
+,before,after
+customerID,str,str
+gender,str,category
+SeniorCitizen,int64,category
+Partner,str,category
+Dependents,str,category
+tenure,int64,int64
+PhoneService,str,category
+MultipleLines,str,category
+InternetService,str,category
+OnlineSecurity,str,category
+OnlineBackup,str,category
+DeviceProtection,str,category
+TechSupport,str,category
+StreamingTV,str,category
+StreamingMovies,str,category
+Contract,str,category
+PaperlessBilling,str,category
+PaymentMethod,str,category
+MonthlyCharges,float64,float64
+TotalCharges,str,float64
+Churn,str,category
+churn_flag,(new column),int64

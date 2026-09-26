@@ -1,0 +1,17 @@
+,cramers_v
+Contract,0.4101
+OnlineSecurity,0.3474
+TechSupport,0.3429
+InternetService,0.3225
+PaymentMethod,0.3034
+OnlineBackup,0.2923
+DeviceProtection,0.2816
+StreamingMovies,0.231
+StreamingTV,0.2305
+PaperlessBilling,0.1918
+Dependents,0.1642
+SeniorCitizen,0.1509
+Partner,0.1504
+MultipleLines,0.0401
+PhoneService,0.0119
+gender,0.0086

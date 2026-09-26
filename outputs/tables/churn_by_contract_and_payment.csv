@@ -1,0 +1,13 @@
+Contract,PaymentMethod,rate,customers
+Month-to-month,Bank transfer (automatic),34.13,589
+Month-to-month,Credit card (automatic),32.78,543
+Month-to-month,Electronic check,53.73,1850
+Month-to-month,Mailed check,31.58,893
+One year,Bank transfer (automatic),9.72,391
+One year,Credit card (automatic),10.3,398
+One year,Electronic check,18.44,347
+One year,Mailed check,6.82,337
+Two year,Bank transfer (automatic),3.37,564
+Two year,Credit card (automatic),2.24,581
+Two year,Electronic check,7.74,168
+Two year,Mailed check,0.79,382

@@ -1,0 +1,5 @@
+feature_set,numeric_features,cv_roc_auc_mean,cv_roc_auc_sd
+"base (tenure, MonthlyCharges, TotalCharges)","tenure, MonthlyCharges, TotalCharges",0.8460311219712157,0.012563023235511141
+base without TotalCharges,"tenure, MonthlyCharges",0.8448256260448392,0.012136572734220264
+base + log_tenure,"tenure, MonthlyCharges, TotalCharges, log_tenure",0.8501663517630996,0.01152667071088434
+without TotalCharges + log_tenure,"tenure, MonthlyCharges, log_tenure",0.8501958127369285,0.011585520175822489

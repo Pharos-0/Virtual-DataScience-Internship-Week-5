@@ -1,0 +1,44 @@
+variable,category,customers,share_pct,churn_rate_pct
+gender,Female,3488,49.52,26.92
+gender,Male,3555,50.48,26.16
+SeniorCitizen,No,5901,83.79,23.61
+SeniorCitizen,Yes,1142,16.21,41.68
+Partner,No,3641,51.7,32.96
+Partner,Yes,3402,48.3,19.66
+Dependents,No,4933,70.04,31.28
+Dependents,Yes,2110,29.96,15.45
+PhoneService,No,682,9.68,24.93
+PhoneService,Yes,6361,90.32,26.71
+MultipleLines,No,3390,48.13,25.04
+MultipleLines,No phone service,682,9.68,24.93
+MultipleLines,Yes,2971,42.18,28.61
+InternetService,DSL,2421,34.37,18.96
+InternetService,Fiber optic,3096,43.96,41.89
+InternetService,No,1526,21.67,7.4
+OnlineSecurity,No,3498,49.67,41.77
+OnlineSecurity,No internet service,1526,21.67,7.4
+OnlineSecurity,Yes,2019,28.67,14.61
+OnlineBackup,No,3088,43.84,39.93
+OnlineBackup,No internet service,1526,21.67,7.4
+OnlineBackup,Yes,2429,34.49,21.53
+DeviceProtection,No,3095,43.94,39.13
+DeviceProtection,No internet service,1526,21.67,7.4
+DeviceProtection,Yes,2422,34.39,22.5
+TechSupport,No,3473,49.31,41.64
+TechSupport,No internet service,1526,21.67,7.4
+TechSupport,Yes,2044,29.02,15.17
+StreamingTV,No,2810,39.9,33.52
+StreamingTV,No internet service,1526,21.67,7.4
+StreamingTV,Yes,2707,38.44,30.07
+StreamingMovies,No,2785,39.54,33.68
+StreamingMovies,No internet service,1526,21.67,7.4
+StreamingMovies,Yes,2732,38.79,29.94
+Contract,Month-to-month,3875,55.02,42.71
+Contract,One year,1473,20.91,11.27
+Contract,Two year,1695,24.07,2.83
+PaperlessBilling,No,2872,40.78,16.33
+PaperlessBilling,Yes,4171,59.22,33.57
+PaymentMethod,Bank transfer (automatic),1544,21.92,16.71
+PaymentMethod,Credit card (automatic),1522,21.61,15.24
+PaymentMethod,Electronic check,2365,33.58,45.29
+PaymentMethod,Mailed check,1612,22.89,19.11

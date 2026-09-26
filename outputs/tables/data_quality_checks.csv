@@ -1,0 +1,14 @@
+,count
+values_with_extra_whitespace,0
+case_or_spacing_label_conflicts,0
+phone_label_inconsistencies,0
+internet_label_inconsistencies,0
+negative_numeric_values,0
+non_positive_monthly_charges,0
+totalcharges_below_monthly_when_tenure_ge_1,0
+billing_deviation_over_10pct,381
+billing_deviation_over_25pct,27
+iqr_outliers,"{'tenure': 0, 'MonthlyCharges': 0, 'TotalCharges': 0}"
+billing_ratio_median,1.0
+billing_ratio_p01,0.855
+billing_ratio_p99,1.159

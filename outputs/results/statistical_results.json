@@ -1,0 +1,304 @@
+{
+  "alpha": 0.05,
+  "n_customers": 7043,
+  "A": {
+    "observed": {
+      "Month-to-month": {
+        "No": 2220,
+        "Yes": 1655
+      },
+      "One year": {
+        "No": 1307,
+        "Yes": 166
+      },
+      "Two year": {
+        "No": 1647,
+        "Yes": 48
+      }
+    },
+    "expected": {
+      "Month-to-month": {
+        "No": 2846.69,
+        "Yes": 1028.31
+      },
+      "One year": {
+        "No": 1082.11,
+        "Yes": 390.89
+      },
+      "Two year": {
+        "No": 1245.2,
+        "Yes": 449.8
+      }
+    },
+    "min_expected": 390.89,
+    "chi2": 1184.597,
+    "dof": 2,
+    "p_value": 5.863038300673393e-258,
+    "cramers_v": 0.4101,
+    "reject_h0": true,
+    "adjusted_residuals": {
+      "Month-to-month": {
+        "No": -33.997,
+        "Yes": 33.997
+      },
+      "One year": {
+        "No": 14.923,
+        "Yes": -14.923
+      },
+      "Two year": {
+        "No": 25.366,
+        "Yes": -25.366
+      }
+    },
+    "group_rates": {
+      "Month-to-month": {
+        "churned": 1655,
+        "customers": 3875,
+        "rate_pct": 42.71,
+        "ci_low_pct": 41.16,
+        "ci_high_pct": 44.27
+      },
+      "One year": {
+        "churned": 166,
+        "customers": 1473,
+        "rate_pct": 11.27,
+        "ci_low_pct": 9.75,
+        "ci_high_pct": 12.99
+      },
+      "Two year": {
+        "churned": 48,
+        "customers": 1695,
+        "rate_pct": 2.83,
+        "ci_low_pct": 2.14,
+        "ci_high_pct": 3.73
+      }
+    },
+    "pairwise": [
+      {
+        "comparison": "Month-to-month vs One year",
+        "difference_pp": 31.440159,
+        "ci_low_pp": 29.127633,
+        "ci_high_pp": 33.617674,
+        "z": 21.675043,
+        "p_value": 3.529090023067473e-104,
+        "p_holm": 7.058180046134946e-104
+      },
+      {
+        "comparison": "Month-to-month vs Two year",
+        "difference_pp": 39.877819,
+        "ci_low_pp": 38.084594,
+        "ci_high_pp": 41.586919,
+        "z": 29.722497,
+        "p_value": 3.9324912173831246e-194,
+        "p_holm": 1.1797473652149375e-193
+      },
+      {
+        "comparison": "One year vs Two year",
+        "difference_pp": 8.43766,
+        "ci_low_pp": 6.674005,
+        "ci_high_pp": 10.287538,
+        "z": 9.438189,
+        "p_value": 3.792770531121328e-21,
+        "p_holm": 3.792770531121328e-21
+      }
+    ]
+  },
+  "A_cmh": {
+    "statistic": 482.756,
+    "p_value": 5.3700083325183856e-107,
+    "pooled_or": 7.113,
+    "pooled_or_ci": [
+      5.874,
+      8.614
+    ],
+    "breslow_day_statistic": 21.658,
+    "breslow_day_p": 0.0006080361681507496,
+    "strata": [
+      {
+        "tenure_band": "0-12",
+        "odds_ratio": 14.5358,
+        "ci_low": 8.222,
+        "ci_high": 25.6979,
+        "m2m_rate_pct": 51.3541,
+        "longer_rate_pct": 6.7708,
+        "n": 2186
+      },
+      {
+        "tenure_band": "13-24",
+        "odds_ratio": 10.2584,
+        "ci_low": 6.0637,
+        "ci_high": 17.3552,
+        "m2m_rate_pct": 37.7205,
+        "longer_rate_pct": 5.5749,
+        "n": 1024
+      },
+      {
+        "tenure_band": "25-36",
+        "odds_ratio": 7.0942,
+        "ci_low": 4.4264,
+        "ci_high": 11.37,
+        "m2m_rate_pct": 32.5103,
+        "longer_rate_pct": 6.3584,
+        "n": 832
+      },
+      {
+        "tenure_band": "37-48",
+        "odds_ratio": 5.2676,
+        "ci_low": 3.5202,
+        "ci_high": 7.8826,
+        "m2m_rate_pct": 33.5443,
+        "longer_rate_pct": 8.7444,
+        "n": 762
+      },
+      {
+        "tenure_band": "49-60",
+        "odds_ratio": 3.7972,
+        "ci_low": 2.5493,
+        "ci_high": 5.6559,
+        "m2m_rate_pct": 27.7778,
+        "longer_rate_pct": 9.1973,
+        "n": 832
+      },
+      {
+        "tenure_band": "61-72",
+        "odds_ratio": 5.0932,
+        "ci_low": 3.0451,
+        "ci_high": 8.5189,
+        "m2m_rate_pct": 22.2222,
+        "longer_rate_pct": 5.3118,
+        "n": 1407
+      }
+    ]
+  },
+  "B": {
+    "descriptives": {
+      "Churned": {
+        "n": 1869.0,
+        "mean": 74.4413,
+        "median": 79.65,
+        "std": 24.6661,
+        "skewness": -0.7288,
+        "excess_kurtosis": -0.3638
+      },
+      "Retained": {
+        "n": 5174.0,
+        "mean": 61.2651,
+        "median": 64.425,
+        "std": 31.0926,
+        "skewness": -0.025,
+        "excess_kurtosis": -1.3552
+      }
+    },
+    "normality": {
+      "Churned": {
+        "statistic": 150.42,
+        "p_value": 2.175109780988896e-33
+      },
+      "Retained": {
+        "statistic": 103168.89,
+        "p_value": 0.0
+      }
+    },
+    "levene_W": 361.844,
+    "levene_p": 1.0261244899399376e-78,
+    "variance_ratio": 1.589,
+    "iqr_outliers": {
+      "churned": 0,
+      "retained": 0
+    },
+    "mean_difference": 13.176,
+    "welch_t": 18.408,
+    "welch_df": 4135.8,
+    "welch_p": 8.592449331547065e-73,
+    "welch_ci": [
+      11.773,
+      14.58
+    ],
+    "hedges_g": 0.4462,
+    "hedges_g_ci": [
+      0.3928,
+      0.4996
+    ],
+    "mwu_U": 6003125.5,
+    "mwu_p": 3.311627651988586e-54,
+    "prob_superiority": 0.6208,
+    "rank_biserial": 0.2416,
+    "bootstrap_ci": [
+      11.805,
+      14.564
+    ],
+    "bootstrap_resamples": 10000,
+    "reject_h0": true
+  },
+  "B_within_service": [
+    {
+      "service": "No",
+      "n_churned": 113,
+      "n_retained": 1413,
+      "mean_churned": 20.368142,
+      "mean_retained": 21.136058,
+      "difference": -0.767916,
+      "ci_low": -1.062307,
+      "ci_high": -0.473526,
+      "t": -5.152472,
+      "p_value": 7.658700951106788e-07,
+      "p_holm": 7.658700951106788e-07
+    },
+    {
+      "service": "DSL",
+      "n_churned": 459,
+      "n_retained": 1962,
+      "mean_churned": 49.083224,
+      "mean_retained": 60.212105,
+      "difference": -11.128881,
+      "ci_low": -12.565685,
+      "ci_high": -9.692076,
+      "t": -15.204415,
+      "p_value": 5.717124449623974e-46,
+      "p_holm": 1.7151373348871922e-45
+    },
+    {
+      "service": "Fiber optic",
+      "n_churned": 1297,
+      "n_retained": 1799,
+      "mean_churned": 88.126484,
+      "mean_retained": 93.932379,
+      "difference": -5.805895,
+      "ci_low": -6.678105,
+      "ci_high": -4.933685,
+      "t": -13.052032,
+      "p_value": 7.135231674115987e-38,
+      "p_holm": 1.4270463348231975e-37
+    }
+  ],
+  "C": [
+    {
+      "add_on": "OnlineSecurity",
+      "rate_without_pct": 41.766724,
+      "n_without": 3498,
+      "rate_with_pct": 14.611194,
+      "n_with": 2019,
+      "difference_pp": 27.15553,
+      "ci_low_pp": 24.869884,
+      "ci_high_pp": 29.362115,
+      "risk_ratio": 2.858543,
+      "z": 20.85806,
+      "p_value": 1.2878996264963822e-96,
+      "p_holm": 2.5757992529927644e-96
+    },
+    {
+      "add_on": "TechSupport",
+      "rate_without_pct": 41.635474,
+      "n_without": 3473,
+      "rate_with_pct": 15.166341,
+      "n_with": 2044,
+      "difference_pp": 26.469133,
+      "ci_low_pp": 24.171306,
+      "ci_high_pp": 28.690433,
+      "risk_ratio": 2.745255,
+      "z": 20.383095,
+      "p_value": 2.362359492004681e-92,
+      "p_holm": 2.362359492004681e-92
+    }
+  ]
+}

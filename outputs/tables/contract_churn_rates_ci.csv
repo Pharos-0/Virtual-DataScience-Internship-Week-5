@@ -1,0 +1,4 @@
+Contract,churned,customers,rate,ci_low,ci_high
+Month-to-month,1655,3875,0.4271,0.4116,0.44274
+One year,166,1473,0.1127,0.09754,0.12986
+Two year,48,1695,0.02832,0.02143,0.03734

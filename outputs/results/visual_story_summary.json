@@ -1,0 +1,321 @@
+{
+  "n_customers": 7043,
+  "overall_churn_rate_pct": 26.54,
+  "v1": {
+    "churned_total": 1869,
+    "churned_in_first_12_months": 1037,
+    "share_of_churners_in_first_12_months_pct": 55.5,
+    "customers_in_first_12_months": 2186,
+    "customers_tenure_61_72": 1407
+  },
+  "v2": {
+    "0-6": {
+      "customers": 1481,
+      "rate_pct": 52.9,
+      "ci_low_pct": 50.4,
+      "ci_high_pct": 55.5
+    },
+    "7-12": {
+      "customers": 705,
+      "rate_pct": 35.9,
+      "ci_low_pct": 32.4,
+      "ci_high_pct": 39.5
+    },
+    "13-18": {
+      "customers": 548,
+      "rate_pct": 32.3,
+      "ci_low_pct": 28.5,
+      "ci_high_pct": 36.3
+    },
+    "19-24": {
+      "customers": 476,
+      "rate_pct": 24.6,
+      "ci_low_pct": 20.9,
+      "ci_high_pct": 28.6
+    },
+    "25-30": {
+      "customers": 431,
+      "rate_pct": 21.8,
+      "ci_low_pct": 18.2,
+      "ci_high_pct": 25.9
+    },
+    "31-36": {
+      "customers": 401,
+      "rate_pct": 21.4,
+      "ci_low_pct": 17.7,
+      "ci_high_pct": 25.7
+    },
+    "37-42": {
+      "customers": 379,
+      "rate_pct": 21.9,
+      "ci_low_pct": 18.0,
+      "ci_high_pct": 26.3
+    },
+    "43-48": {
+      "customers": 383,
+      "rate_pct": 16.2,
+      "ci_low_pct": 12.8,
+      "ci_high_pct": 20.2
+    },
+    "49-54": {
+      "customers": 420,
+      "rate_pct": 16.2,
+      "ci_low_pct": 13.0,
+      "ci_high_pct": 20.0
+    },
+    "55-60": {
+      "customers": 412,
+      "rate_pct": 12.6,
+      "ci_low_pct": 9.8,
+      "ci_high_pct": 16.2
+    },
+    "61-66": {
+      "customers": 463,
+      "rate_pct": 9.3,
+      "ci_low_pct": 7.0,
+      "ci_high_pct": 12.3
+    },
+    "67-72": {
+      "customers": 944,
+      "rate_pct": 5.3,
+      "ci_low_pct": 4.0,
+      "ci_high_pct": 6.9
+    }
+  },
+  "v3": {
+    "rates_pct": {
+      "Month-to-month": {
+        "0-12": 51.4,
+        "13-24": 37.7,
+        "25-36": 32.5,
+        "37-48": 33.5,
+        "49-60": 27.8,
+        "61-72": 22.2
+      },
+      "One year": {
+        "0-12": 10.5,
+        "13-24": 8.1,
+        "25-36": 8.0,
+        "37-48": 13.1,
+        "49-60": 13.7,
+        "61-72": 12.1
+      },
+      "Two year": {
+        "0-12": 0.0,
+        "13-24": 0.0,
+        "25-36": 2.1,
+        "37-48": 2.2,
+        "49-60": 4.0,
+        "61-72": 3.1
+      }
+    },
+    "counts": {
+      "Month-to-month": {
+        "0-12": 1994,
+        "13-24": 737,
+        "25-36": 486,
+        "37-48": 316,
+        "49-60": 234,
+        "61-72": 108
+      },
+      "One year": {
+        "0-12": 124,
+        "13-24": 197,
+        "25-36": 250,
+        "37-48": 268,
+        "49-60": 321,
+        "61-72": 313
+      },
+      "Two year": {
+        "0-12": 68,
+        "13-24": 90,
+        "25-36": 96,
+        "37-48": 178,
+        "49-60": 277,
+        "61-72": 986
+      }
+    },
+    "median_tenure_by_contract": {
+      "Month-to-month": 12.0,
+      "One year": 44.0,
+      "Two year": 64.0
+    }
+  },
+  "v4": {
+    "internet_churn_rate_pct": {
+      "No": 7.4,
+      "DSL": 19.0,
+      "Fiber optic": 41.9
+    },
+    "median_charge": {
+      "No": {
+        "stayed": 20.15,
+        "left": 20.0
+      },
+      "DSL": {
+        "stayed": 59.75,
+        "left": 49.25
+      },
+      "Fiber optic": {
+        "stayed": 94.8,
+        "left": 87.55
+      }
+    },
+    "internet_customers": {
+      "Fiber optic": 3096,
+      "DSL": 2421,
+      "No": 1526
+    }
+  },
+  "v5": {
+    "internet_customers": 5517,
+    "addons": {
+      "StreamingTV": {
+        "rate_with": 30.1,
+        "n_with": 2707,
+        "rate_without": 33.5,
+        "n_without": 2810,
+        "gap": 3.5
+      },
+      "StreamingMovies": {
+        "rate_with": 29.9,
+        "n_with": 2732,
+        "rate_without": 33.7,
+        "n_without": 2785,
+        "gap": 3.7
+      },
+      "DeviceProtection": {
+        "rate_with": 22.5,
+        "n_with": 2422,
+        "rate_without": 39.1,
+        "n_without": 3095,
+        "gap": 16.6
+      },
+      "OnlineBackup": {
+        "rate_with": 21.5,
+        "n_with": 2429,
+        "rate_without": 39.9,
+        "n_without": 3088,
+        "gap": 18.4
+      },
+      "TechSupport": {
+        "rate_with": 15.2,
+        "n_with": 2044,
+        "rate_without": 41.6,
+        "n_without": 3473,
+        "gap": 26.5
+      },
+      "OnlineSecurity": {
+        "rate_with": 14.6,
+        "n_with": 2019,
+        "rate_without": 41.8,
+        "n_without": 3498,
+        "gap": 27.2
+      }
+    }
+  },
+  "v6": {
+    "Month-to-month": {
+      "Bank transfer (automatic)": {
+        "rate": 34.1,
+        "customers": 589
+      },
+      "Credit card (automatic)": {
+        "rate": 32.8,
+        "customers": 543
+      },
+      "Electronic check": {
+        "rate": 53.7,
+        "customers": 1850
+      },
+      "Mailed check": {
+        "rate": 31.6,
+        "customers": 893
+      }
+    },
+    "One year": {
+      "Bank transfer (automatic)": {
+        "rate": 9.7,
+        "customers": 391
+      },
+      "Credit card (automatic)": {
+        "rate": 10.3,
+        "customers": 398
+      },
+      "Electronic check": {
+        "rate": 18.4,
+        "customers": 347
+      },
+      "Mailed check": {
+        "rate": 6.8,
+        "customers": 337
+      }
+    },
+    "Two year": {
+      "Bank transfer (automatic)": {
+        "rate": 3.4,
+        "customers": 564
+      },
+      "Credit card (automatic)": {
+        "rate": 2.2,
+        "customers": 581
+      },
+      "Electronic check": {
+        "rate": 7.7,
+        "customers": 168
+      },
+      "Mailed check": {
+        "rate": 0.8,
+        "customers": 382
+      }
+    }
+  },
+  "v7": {
+    "n_segments": 36,
+    "top_segment": "Month-to-month | Fiber optic | Electronic check",
+    "top_segment_customers": 1307,
+    "top_segment_churned": 789,
+    "top_segment_rate_pct": 60.4,
+    "top_segment_share_of_all_churn_pct": 42.2,
+    "top5": [
+      {
+        "segment": "Month-to-month | Fiber optic | Electronic check",
+        "customers": 1307,
+        "churned": 789,
+        "churn_rate": 60.4
+      },
+      {
+        "segment": "Month-to-month | DSL | Electronic check",
+        "customers": 474,
+        "churned": 192,
+        "churn_rate": 40.5
+      },
+      {
+        "segment": "Month-to-month | Fiber optic | Bank transfer (automatic)",
+        "customers": 327,
+        "churned": 149,
+        "churn_rate": 45.6
+      },
+      {
+        "segment": "Month-to-month | Fiber optic | Credit card (automatic)",
+        "customers": 293,
+        "churned": 122,
+        "churn_rate": 41.6
+      },
+      {
+        "segment": "Month-to-month | DSL | Mailed check",
+        "customers": 367,
+        "churned": 113,
+        "churn_rate": 30.8
+      }
+    ]
+  },
+  "v8": {
+    "billed_customers": 7032,
+    "unusual": 381,
+    "unusual_median_tenure": 6.0,
+    "usual_median_tenure": 31.0,
+    "unusual_churn_rate_pct": 28.6,
+    "usual_churn_rate_pct": 26.5
+  }
+}

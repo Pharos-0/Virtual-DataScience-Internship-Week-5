@@ -1,0 +1,24 @@
+,importance
+tenure,0.3649239373205954
+InternetService_Fiber optic,0.3421621733594498
+log_tenure,0.09075755263376077
+MonthlyCharges,0.044119008730723046
+PaymentMethod_Electronic check,0.03694776198730792
+InternetService_No,0.036410792239540545
+MultipleLines_Yes,0.02226679933148035
+Contract_Two year,0.01875617714114151
+TechSupport_Yes,0.012989614010619384
+Contract_One year,0.011230926093770003
+PhoneService_Yes,0.00674620618386431
+OnlineSecurity_Yes,0.00618563828038631
+PaperlessBilling_Yes,0.006123943784766517
+SeniorCitizen_Yes,0.0002705115333177922
+OnlineBackup_Yes,0.00010895736927625619
+DeviceProtection_Yes,0.0
+Dependents_Yes,0.0
+StreamingTV_Yes,0.0
+StreamingMovies_Yes,0.0
+Partner_Yes,0.0
+PaymentMethod_Credit card (automatic),0.0
+gender_Male,0.0
+PaymentMethod_Mailed check,0.0

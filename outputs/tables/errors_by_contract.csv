@@ -1,0 +1,4 @@
+Contract,customers,churners,recall,precision,false_negatives,false_positives
+Month-to-month,773,329,0.8115501519756839,0.572961373390558,62,199
+One year,300,36,0.1388888888888889,0.35714285714285715,31,9
+Two year,336,9,0.0,0.0,9,0

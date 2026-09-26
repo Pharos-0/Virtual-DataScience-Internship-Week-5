@@ -1,0 +1,7 @@
+hypothesis,test,statistic,p_value,effect_size,decision
+A: churn vs contract type,Chi-square test of independence,chi2(2) = 1184.6,5.86e-258,Cramer's V = 0.410,reject H0
+A (tenure-adjusted),Cochran-Mantel-Haenszel,chi2(1) = 482.8,5.37e-107,"pooled OR = 7.11 [5.87, 8.61]",reject H0
+B: monthly charges,Welch t-test,t(4136) = 18.41,8.59e-73,diff = $13.18; g = 0.45,reject H0
+B (robustness),Mann-Whitney U,"U = 6,003,126",3.31e-54,rank-biserial r = 0.24,reject H0
+C: OnlineSecurity,Two-proportion z-test,z = 20.86,2.58e-96 (Holm),diff = 27.2 pp,reject H0
+C: TechSupport,Two-proportion z-test,z = 20.38,2.36e-92 (Holm),diff = 26.5 pp,reject H0

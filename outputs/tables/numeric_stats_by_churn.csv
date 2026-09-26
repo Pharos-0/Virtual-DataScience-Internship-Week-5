@@ -1,0 +1,5 @@
+,tenure,tenure,tenure,MonthlyCharges,MonthlyCharges,MonthlyCharges,TotalCharges,TotalCharges,TotalCharges
+,mean,median,std,mean,median,std,mean,median,std
+Churn,,,,,,,,,
+No,37.57,38.0,24.11,61.27,64.43,31.09,2549.91,1679.52,2329.95
+Yes,17.98,10.0,19.53,74.44,79.65,24.67,1531.8,703.55,1890.82
