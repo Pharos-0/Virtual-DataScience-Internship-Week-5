@@ -181,6 +181,37 @@ display(tenure_trend[["customers", "churn_rate_pct"]])
 tenure_trend.to_csv(TABLE_DIR / "churn_rate_by_tenure_band.csv")
 eda_summary["tenure_band_churn"] = tenure_trend[["customers", "churn_rate_pct"]].to_dict("index")
 
+# %% tags=["shot-trend-scatter"]
+# Left: the lifecycle trend as a chart. Right: the relationship between tenure and
+# accumulated charges, with churned customers drawn on top so they stay visible.
+fig, axes = plt.subplots(1, 2, figsize=(11, 3.9), gridspec_kw={"width_ratios": [1, 1.25]})
+ax = axes[0]
+positions = np.arange(len(tenure_trend))
+ax.plot(positions, tenure_trend["churn_rate"] * 100, color=CHURN_COLOR, linewidth=2, marker="o",
+        markersize=6, markeredgecolor="white", markeredgewidth=1.5)
+for x_pos, rate in zip(positions, tenure_trend["churn_rate"]):
+    ax.text(x_pos, rate * 100 + 2.5, f"{rate:.1%}", ha="center", fontsize=8.5, color=MUTED_INK)
+ax.axhline(churn_rate * 100, color="#222222", linewidth=0.8)
+ax.text(positions[-1], churn_rate * 100 + 1.5, f"overall {churn_rate:.1%}", ha="right", fontsize=8)
+ax.set_xticks(positions)
+ax.set_xticklabels(tenure_trend.index.astype(str))
+ax.set_ylim(0, 60)
+ax.yaxis.set_major_formatter(PercentFormatter(decimals=0))
+ax.set_xlabel("Tenure band (months)")
+ax.set_ylabel("Churn rate")
+ax.set_title("Churn rate falls with tenure")
+ax = axes[1]
+for status, colour, label in (("No", RETAINED_COLOR, "Retained"), ("Yes", CHURN_COLOR, "Churned")):
+    subset = df[df["Churn"] == status]
+    ax.scatter(subset["tenure"], subset["TotalCharges"], s=5, color=colour, alpha=0.55, linewidths=0, label=label)
+ax.set_xlabel("Tenure (months)")
+ax.set_ylabel("TotalCharges (USD)")
+ax.yaxis.set_major_formatter(StrMethodFormatter("{x:,.0f}"))
+ax.set_title("Tenure vs total charges by churn status")
+ax.legend(loc="upper left", markerscale=3)
+fig.tight_layout()
+save_figure(fig, "fig1_7_tenure_trend_and_scatter.png")
+
 # %% [markdown]
 # ### 3.5 Relationships: correlations and association with churn
 
